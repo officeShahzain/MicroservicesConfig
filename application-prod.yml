@@ -1,6 +1,4 @@
 Spring:
-  application:
-    name:CONFIG-PRODUCTION
   client:
     fetch-registry: true
     register-with-eureka: true
