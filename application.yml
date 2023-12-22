@@ -1,6 +1,6 @@
 Spring:
   client:
-      fetch-registry: true
+    fetch-registry: true
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:9000/eureka
