@@ -1,3 +1,8 @@
-spring:
+Spring:
   application:
-    name:
+    name:CONFIG-PRODUCTION
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka
