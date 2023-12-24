@@ -1,6 +1,9 @@
 Spring:
   application:
     name:CONFIG-DEFAULT
+eureka:
+  instance:
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
